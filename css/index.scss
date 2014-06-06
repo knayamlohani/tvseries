@@ -1,0 +1,72 @@
+header {
+  background-color: #428BCA;
+  height: 5em;
+}
+.home-page-heading {
+  font-family: "comic sans ms";
+  height: 100%;
+}
+.home-page-heading {
+   .app-artwork {
+     height: 100%;
+     img {
+       height: 100%;
+     }
+   }  
+}
+
+
+body{
+    padding:0;
+    border:0;
+    margin:0;
+}
+/* carousel overwritten styles*/
+
+.carousel {
+  height: auto;
+  margin-bottom: 0;
+  .item {
+  height: auto;
+  }
+}
+
+
+.carousel-inner > .item > img {
+  position: static;
+  min-width: 100%;
+  height: auto
+}
+
+.download-now{
+  h1,p{
+    text-align: center;
+    margin-bottom: 2em
+  }
+
+  h1{
+    color:#428BCA;
+    margin:1em;
+  }
+}
+
+.download-share{
+  background-color: rgb(0,138,0);
+  .download-from-windows-store{
+    text-align: center;
+  }
+  
+  
+}
+
+
+footer{
+  background-color: #428BCA;
+  color: white;
+  height:5em;
+  margin-top: 2em;
+  h3{
+    text-align: center;
+    line-height: 3;
+  }
+}
