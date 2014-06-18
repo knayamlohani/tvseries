@@ -38,25 +38,30 @@ body{
   height: auto
 }
 
-.download-now{
-  h1,p{
-    text-align: center;
-    margin-bottom: 2em
-  }
-
-  h1{
-    color:#428BCA;
-    margin:1em;
-  }
-}
-
-.download-share{
+.download-share-like{
+ /* background: url("/img/backgroundWall.jpg");*/
   background-color: rgb(0,138,0);
   .download-from-windows-store{
     text-align: center;
+    img{
+      width:44.3%;
+    }
+    
   }
   
   
+  
+
+  .share-like {
+    text-align: center;
+    i{
+      color: white;
+      margin: 2%;
+    }
+    i:hover{
+      opacity: .9;
+    }
+  }
 }
 
 

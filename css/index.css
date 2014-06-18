@@ -28,17 +28,20 @@ body {
   min-width: 100%;
   height: auto; }
 
-.download-now h1, .download-now p {
-  text-align: center;
-  margin-bottom: 2em; }
-.download-now h1 {
-  color: #428BCA;
-  margin: 1em; }
-
-.download-share {
+.download-share-like {
+  /* background: url("/img/backgroundWall.jpg");*/
   background-color: #008a00; }
-  .download-share .download-from-windows-store {
+  .download-share-like .download-from-windows-store {
     text-align: center; }
+    .download-share-like .download-from-windows-store img {
+      width: 44.3%; }
+  .download-share-like .share-like {
+    text-align: center; }
+    .download-share-like .share-like i {
+      color: white;
+      margin: 2%; }
+    .download-share-like .share-like i:hover {
+      opacity: 0.9; }
 
 footer {
   background-color: #428BCA;
