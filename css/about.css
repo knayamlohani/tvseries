@@ -1,0 +1,52 @@
+#tvseries-about {
+  padding: 2em;
+  border-bottom: 0.1em solid gray; }
+  #tvseries-about .title {
+    text-align: center;
+    padding-bottom: 0.5em;
+    color: ivory;
+    font-family: monospace;
+    font-size: 5em;
+    color: #0197f4; }
+  #tvseries-about .content {
+    text-align: center;
+    color: ivory;
+    font-family: sans-serif;
+    font-size: 1.5em; }
+
+#tvseries-product-details {
+  margin: 0; }
+  #tvseries-product-details .heading {
+    text-align: center; }
+  #tvseries-product-details .list-group-item {
+    margin: 0 1em;
+    background-color: rgba(255, 255, 240, 0.93); }
+
+
+.nav li.active {
+  margin-bottom: 0;
+  border-bottom: 0; }
+
+.nav a {
+  background-color: transparent; }
+.nav li.active {
+  background-color: transparent;
+  filter: blur(5); }
+  .nav li.active a#about {
+    background-color: transparent;
+    border-bottom: 0px solid transparent;
+    color: ivory; }
+
+body {
+  background: url("/img/backgroundWall.jpg");
+  background-attachment: fixed;
+  background-repeat: repeat; }
+
+.heading {
+  color: ivory;
+  font-family: monospace; }
+
+.sub-heading {
+  color: #428bca; }
+
+/*# sourceMappingURL=about.css.map */

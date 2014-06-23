@@ -31,15 +31,32 @@ body{
   }
 }
 
-
-.carousel-inner > .item > img {
-  position: static;
-  min-width: 100%;
-  height: auto
+#myCarousel{
+  width: 95%;
+  margin: 2.5%;
+  border-radius: .4em;
 }
 
+.carousel-inner{
+  border-radius: .4em;
+  border:.1em solid gray;
+  > .item{
+    > img {
+      position: static;
+      min-width: 100%;
+      height: auto;
+      border-radius: .4em;
+    }
+  }
+}
+
+
+.carousel-control{
+  border-radius:.4em;
+}
+
+
 .download-share-like{
- /* background: url("/img/backgroundWall.jpg");*/
   background-color: rgb(0,138,0);
   .download-from-windows-store{
     text-align: center;
@@ -73,5 +90,24 @@ footer{
   h3{
     text-align: center;
     line-height: 3;
+  }
+}
+
+body{
+background :url("/img/backgroundWall.jpg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+.nav{
+  a{
+    background-color: transparent;
+  }
+  li.active{
+  background-color: transparent;
+    a#tv-series{
+      background-color: transparent;
+      border-bottom: 0px solid transparent;
+    }
   }
 }

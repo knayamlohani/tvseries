@@ -35,10 +35,10 @@
       <![endif]-->
 
   <!-- Custom styles for this template -->
-  <link href="/css/carousel.css" rel="stylesheet">
   <style type="/text/css" id="holderjs-style"></style>
   <link href="/css/index.css" rel="stylesheet">
   <script src="/js/index.js"></script>
+  <link href="/css/about.css" rel="stylesheet">
 </head>
 
 
@@ -47,10 +47,10 @@
 
 <body>
 
-  <ul class="nav nav-tabs nav-justified">
+  <ul id="nav-bar" class="nav nav-tabs nav-justified">
     <li><a href="/index.html">TV Series</a>
     </li>
-    <li class="active"><a href="/about/about.html">About</a>
+    <li class="active"><a id="about" href="/about/about.html">About</a>
     </li>
     <li><a href="/tour/tour.html">Tour</a>
     </li>
@@ -59,39 +59,35 @@
   </ul>
 
 
-  <section>
-    <h1>TV Series</h1>
-    <p>An App which completely changes the way used to track and manage your TV Shows</p>
-    <p>TV Series App allows you to track and manage your TV Shows without having to juggle between a desktop app to view your TV Shows and a separate app to track them. With TV Series you get to perform them just at the click of a button</p>
+  <section id="tvseries-about">
+    <h1 class="title">TV Series</h1>
+    <p class="content">An App which completely changes the way used to track and manage your TV Shows</p>
+    <p class="content">TV Series App allows you to track and manage your TV Shows without having to juggle between a desktop app to view your TV Shows and a separate app to track them. With TV Series you get to perform them just at the click of a button</p>
 
 
   </section>
+  <section id="tvseries-product-details">
   <section>
-    <h3>Whats New in Version 2</h3>
+    <h2 class="heading">Whats New in Version 2</h2>
     <ul class="list-group">
       <li class="list-group-item">
-        <h4>Push Notifications</h4>
-        <p>Get Push Notifications throughout the App for every action performed through the session</p>
-      </li>
-
-      <li class="list-group-item">
-        <h4>Notification Center</h4>
-        <p>Notification Center keeps track of your missed notifications with an easy acces to them</p>
+        <h4 class="sub-heading">Notification Center</h4>
+        <p>Notification Center keeps track of tasks performed by the App.</p>
       </li>
       <li class="list-group-item">
-        <h4>User Settings</h4>
+        <h4 class="sub-heading">User Settings</h4>
         <p>Manage your backup and Auto Update settings</p>
       </li>
       <li class="list-group-item">
-        <h4>Revamped Video Player Look</h4>
+        <h4 class="sub-heading">Revamped Video Player Look</h4>
         <p>A Full Screen Video Player with multi-touch gestures providing smooth transition between start of new episodes and for previous next episode commands. An Informtaion bar along with the Video to get quick information about the currently playing and the nearby episodes without having to leave the video</p>
         <p>To know more about the supported video formats visit
-          <a href="#">Windows app supported video Formats</a>
+          <a href="http://msdn.microsoft.com/en-in/library/windows/apps/hh986969.aspx" target="_blank">Supported audio and video formats (Windows Runtime apps)</a>
         </p>
       </li>
       </li>
       <li class="list-group-item">
-        <h4>Redesigned Favorites Section</h4>
+        <h4 class="sub-heading">Redesigned Favorites Section</h4>
         <p>Favorites Section has been redesigned providing you with series rating, interactive links to your last watched and coming Up episodes</p>
       </li>
       </li>
@@ -100,18 +96,19 @@
 
 
   <section>
-    <h3>Bug Fixes</h3>
+    <h2 class="heading">Bug Fixes</h2>
     <ul class="list-group">
       <li class="list-group-item">
-        <h4>Search TV Shows</h4>
+        <h4 class="sub-heading">Search TV Shows</h4>
         <p>The Search is now stable and also keeps tracks of your already added TV Shows</p>
       </li>
       <li class="list-group-item">
-        <h4>Search Episodes</h4>
+        <h4 class="sub-heading">Search Episodes</h4>
         <p>Search Tool for finding episodes in a series is now more responsive to continuous keystrokes and does get stuck on continous searches</p>
       </li>
 
     </ul>
+  </section>
   </section>
 
 
