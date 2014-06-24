@@ -23,10 +23,6 @@ body {
   .carousel .item {
     height: auto; }
 
-#myCarousel {
-  width: 95%;
-  margin: 2.5%;
-  border-radius: 0.4em; }
 
 .carousel-inner {
   border-radius: 0.4em;
@@ -54,26 +50,37 @@ body {
     .download-share-like .share-like i:hover {
       opacity: 0.9; }
 
-footer {
+/*
+footer{
   background-color: #428BCA;
   color: white;
-  height: 5em;
-  margin-top: 2em; }
-  footer h3 {
+  height:5em;
+  margin-top: 2em;
+  h3{
     text-align: center;
-    line-height: 3; }
-
-body {
-  background: url("/img/backgroundWall.jpg");
+    line-height: 3;
+  }
+}*/
+/*
+body{
+background :url("/img/mac.jpg");
   background-attachment: fixed;
-  background-repeat: repeat; }
-
-.nav a {
-  background-color: transparent; }
-.nav li.active {
-  background-color: transparent; }
-  .nav li.active a#tv-series {
+  background-repeat: repeat;
+}
+*/
+.nav {
+  /*
+  a{
     background-color: transparent;
-    border-bottom: 0px solid transparent; }
+  }*/ }
+  .nav li.active {
+    /*
+    a{
+      color: ivory;
+    }
+    background-color: transparent;*/ }
+    .nav li.active a#tv-series {
+      background-color: transparent;
+      border-bottom: 0px solid transparent; }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,19 @@
+footer.footer{
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  h3{
+    line-height: 0;
+  }
+}
+
+#contact-details{
+  color: ivory;
+  p{
+    margin-left: 35%;
+  }
+  
+  p:first-child{
+    margin-top: 5%;
+  }
+}

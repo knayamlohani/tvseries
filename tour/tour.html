@@ -40,10 +40,7 @@
   <link href="/css/index.css" rel="stylesheet">
   <script src="/js/index.js"></script>
   <link href="/css/tour.css" rel="stylesheet">
-</head>
-
-
-
+  <link href="/css/globalStyles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -53,7 +50,7 @@
     </li>
     <li><a href="/about/about.html">About</a>
     </li>
-    <li class="active"><a href="/tour/tour.html">Tour</a>
+    <li class="active"><a id="current-nav-item" href="/tour/tour.html">Tour</a>
     </li>
     <li><a href="/contact/contact.html">Contact</a>
     </li>
@@ -352,10 +349,10 @@
 
   <!-- FOOTER -->
 
-  <footer>
+  <footer class="footer">
     <!--<p class="pull-right"><a href="#">Back to top</a>
     </p>-->
-    <h3>Copyright © 2014, TV Series<!-- <a href="#">Privacy</a> · <a href="#">Terms</a>-->
+    <h3>Copyright © 2014, Mayank Lohani<!-- <a href="#">Privacy</a> · <a href="#">Terms</a>-->
         </h3>
   </footer>
 
@@ -368,15 +365,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="/lib/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
   <script src="/js/docs.min.js"></script>
-
-
-
-
-
-
-
-
-
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script>
@@ -403,274 +391,6 @@
     ga('send', 'pageview');
   </script>
 
-
-
-
-
 </body>
 
 </html>
-
-
-
-
-
-
-
-<!--
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="/img/following.jpg" alt="First slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/series-preview.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/series-settings.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/tv-series-linking-1.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/tv-series-linking-2.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/tv-series-linking-3.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/tv-series-linking-4.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/seasons-accordian-view.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/season-episodes.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/episode-view.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="item">
-      <img src="/img/video-preview-0.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/video-preview-1.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/video-preview-2.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/video-preview-3.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/video-preview-4.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="item">
-      <img src="/img/prev-video-click.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/prev-video.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/favorites.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/img/coming-up.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-    <div class="item">
-      <img src="/img/search-episodes.jpg" alt=" slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1></h1>
-          <p></p>
-          <p>
-          </p>
-        </div>
-      </div>
-    </div>
-
-
-
-  </div>
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
--->

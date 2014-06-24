@@ -1,0 +1,15 @@
+footer.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  footer.footer h3 {
+    line-height: 0; }
+
+#contact-details {
+  color: ivory; }
+  #contact-details p {
+    margin-left: 35%; }
+  #contact-details p:first-child {
+    margin-top: 5%; }
+
+/*# sourceMappingURL=contact.css.map */
